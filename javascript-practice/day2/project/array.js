@@ -100,14 +100,39 @@
 // }
 
 // Remove duplicate elements
-let arr = [1, 3, 2, 5, 4, 7, 35, 2, 4, 6, 2];
-let newarr = []
+// let arr = [1, 3, 2, 5, 4, 7, 35, 2, 4, 6, 2];
+// let newarr = [];
 
-for(let i = 0; i <arr.length ; i++){
-    if(arr[i] = newarr ){
+// for (let i = 0; i < arr.length; i++) {
+//     let isDuplicat = false;
 
-    }
-}
+//     for (let j = 0; j < newarr.length; j++) {
+//         if (arr[i] === newarr[j]) {
+//             isDuplicat = true;
+//             break;
+//         }
+//     }
+
+//     if (!isDuplicat) {
+//         newarr.push(arr[i]);
+//     }
+// }
+
+// console.log(newarr);
+
+// 9️⃣ forEach / map / filter
+
+// Print all elements using forEach
+
+let arr = [23, 55, 33, 56, 88];
+
+
+
+// Create a new array with values doubled
+
+// Filter even numbers from array
+
+// Count odd numbers using forEach
 
 
 
