@@ -124,7 +124,7 @@
 
 // Print all elements using forEach
 
-let arr = [23, 55, 33, 56, 88];
+// let arr = [23, 55, 33, 56, 88];
 
 
 
