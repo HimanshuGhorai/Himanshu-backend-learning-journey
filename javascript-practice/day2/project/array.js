@@ -130,10 +130,59 @@
 
 // Create a new array with values doubled
 
+let arr = [2, 4, 6, 7, 8, 9, 19];
+
+const douled = (num) => {
+
+    let newarr = [];
+
+    for (let i = 0; i < num.length; i++) {
+        newarr.push(num[i] * 2);
+    }
+    return newarr
+
+}
+
+// console.log(douled(arr));
+
+
 // Filter even numbers from array
+
+let arr2 = [3, 2, 6, 6, 8, 5, 4];
+let evenArr = []
+
+for (let i = 0; i < arr2.length; i++) {
+    if (arr2[i] % 2 === 0) {
+        evenArr.push(arr2[i]);
+    } else {
+        continue;
+    }
+}
+// console.log(evenArr);
+
 
 // Count odd numbers using forEach
 
+const arr3 = [0, 4, 2, 11, 8, 87, 44, 3, 7];
+let odd1 = [];
 
+arr3.forEach(n => {
+    if (n % 2 !== 0) {
+        odd1.push(n);
+    }
+})
+
+console.log(odd1);
+
+
+// 14️⃣ Mixed Logic
+
+// Find missing number in array
+
+// Find second largest number
+
+// Remove falsy values from array
+
+// Flatten a nested array (basic)
 
 
