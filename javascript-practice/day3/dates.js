@@ -52,7 +52,7 @@ const userobj = {
 
 }
 // Object.freeze(userobj);
-console.log(userobj);
+// console.log(userobj);
 
 // console.log(userobj["Full Name"]);
 // console.log(userobj.name);
@@ -61,6 +61,51 @@ console.log(userobj);
 
 
 userobj.greeting = function () {
-    console.log("Helo Js User ");
+    // console.log("Helo Js User ");
 
 }
+
+
+// const tender = new Object();
+const tender = {};
+tender.id = "123abc";
+tender.user = "meal";
+tender.name = "himu";
+tender.isLoggedIn = true;
+
+// console.log(tender);
+
+
+const regularUser = {
+    email: "some@gamil.com",
+    fullName: {
+        userFullName: {
+            FirstName: "Himanshu",
+            lastName: "Gahorai"
+        }
+    }
+}
+
+// console.log(regularUser);
+// console.log(regularUser.fullName);
+// console.log(regularUser.fullName.userFullName);
+// console.log(regularUser.fullName.userFullName.FirstName);
+
+
+const obj1 = {
+    1: "a",
+    2: "b",
+}
+
+const obj2 = {
+    3: "c",
+    4: "d",
+}
+
+// const obj4 = {
+//     obj1, obj2
+// }
+
+// const obj4 = Object.assign({}, obj1, obj2)
+const obj3 = { ...obj1, ...obj2 }
+console.log(obj3);
