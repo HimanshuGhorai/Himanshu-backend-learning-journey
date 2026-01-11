@@ -108,4 +108,25 @@ const obj2 = {
 
 // const obj4 = Object.assign({}, obj1, obj2)
 const obj3 = { ...obj1, ...obj2 }
-console.log(obj3);
+// console.log(obj3);
+
+
+
+
+const course = {
+    courseName: "js",
+    price: "999",
+    coruseInstrutor: "himu"
+}
+
+// console.log(course.coruseInstrutor);
+
+const { coruseInstrutor } = course;
+
+console.log(coruseInstrutor);
+
+{
+    courseName: "js",
+        price: "999",
+            coruseInstrutor: "himu"
+}
