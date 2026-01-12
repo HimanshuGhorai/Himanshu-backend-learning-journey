@@ -125,8 +125,8 @@ const { coruseInstrutor } = course;
 
 console.log(coruseInstrutor);
 
-{
-    courseName: "js",
-        price: "999",
-            coruseInstrutor: "himu"
-}
+// {
+//     courseName: "js",
+//         price: "999",
+//             coruseInstrutor: "himu"
+// } this is a json demo

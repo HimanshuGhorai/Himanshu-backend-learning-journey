@@ -48,3 +48,33 @@ const reverseString = (str) => {
 }
 console.log(reverseString('hello'));
 
+
+
+function sayHello() {
+    console.log("Hello JavaScript");
+}
+
+sayHello();
+
+
+function greetUser(name) {
+    console.log(`Hello ${name}`);
+}
+
+greetUser("Himanshu");
+
+
+function add(a, b) {
+    return a + b;
+}
+
+let result = add(5, 3);
+console.log(result);
+
+
+function isEven(num) {
+    return num % 2 === 0;
+}
+
+console.log(isEven(4));
+console.log(isEven(7));
