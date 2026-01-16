@@ -165,6 +165,33 @@ const user = {
 // }
 // const addtow = (num1, num2) => (num1 + num2);
 // const addtow = (num1, num2) => num1 + num2
-const addtow = (num1, num2) => ({ name: "himanshu" })
+const addtow = (num1, num2) => ({ name: "himanshu" });
 
-console.log(addtow(3, 4));
+// console.log(addtow(3, 4));
+
+
+
+// IIFE (Immediately invoked function expressions);
+
+// function newfun() {
+//     console.log(`DB connected`);
+
+// }
+
+// newfun();
+
+
+(function newfun() {
+    console.log(`DB connected one`);
+
+})(); // ; this is semicolon is important
+
+(() => {
+    console.log(`DB connected two`);
+
+})();  // ; this is semicolon is important
+
+((name) => {
+    console.log(`DB connected three ${name}`);
+
+})('himanshu'); // ; this is semicolon is important
