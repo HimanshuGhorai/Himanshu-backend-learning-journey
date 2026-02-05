@@ -39,8 +39,4 @@ const num = [12, 23, 44, 55, 45, 90];
 
 // while loop
 
-let i = 0;
-while (i < num.length) {
-    console.log(`Count ${i}: numbers ${num[i]}`);
-    i++;
-}
+//  
